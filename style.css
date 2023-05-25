@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Genshin';
+    src: url(Fonts/zh-cn.ttf);
+}
+
+:root{
+--light: #ffffff;
+--dark: #2c2f33;
+--green: #3aa372;
+--red: #F05454;
+}
+
+body {
+    font-family: 'Genshin';
+    font-size: 15px;
+    color: var(--dark);
+    background-image: url('1161811.jpg');
+    background-position: center;
+}
+
+.shadow{
+    background-color: var(--light);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.fz-13{
+    font-size: 13px;
+}
+
+a{
+    color:var(--red);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--red);
+        text-decoration: underline;
+}
+
+.btn-primary {
+    color: var(--light) !important;
+    background-color: var(--green) !important;
+    font-size: 15px;
+    border: none;
+}
+
+.btn-primary:hover, :active, :focus{
+    outline: none;
+}
+
+.bg-register{
+    background-image: url('bleeh.jpg');
+    border-radius: 10px 0px 0px 10px;
+    background-size: cover;
+    background-position: center;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -ms-border-radius: 10px 0px 0px 10px;
+    -o-border-radius: 10px 0px 0px 10px;
+}
